@@ -16,12 +16,6 @@ double calculateRectangleArea(double length, double width) {
 
 int main() {
     setlocale(LC_ALL, "Russian");
-    // Тест 1: Прямоугольник с целыми сторонами
-    double length1 = 5.0;
-    double width1 = 3.0;
-    double area1 = calculateRectangleArea(length1, width1);
-    std::cout << "Прямоугольник " << length1 << " x " << width1
-        << " имеет площадь: " << area1 << std::endl;
 
     // Тест 2: Прямоугольник с дробными сторонами
     double length2 = 7.5;
@@ -36,3 +30,4 @@ int main() {
     std::cout << "Квадрат со стороной " << side
         << " имеет площадь: " << area3 << std::endl;
 }
+
