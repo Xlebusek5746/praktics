@@ -29,10 +29,5 @@ int main() {
     double area2 = calculateRectangleArea(length2, width2);
     std::cout << "Прямоугольник " << length2 << " x " << width2
         << " имеет площадь: " << area2 << std::endl;
-
-    // Тест 3: Квадрат (частный случай прямоугольника)
-    double side = 4.0;
-    double area3 = calculateRectangleArea(side, side);
-    std::cout << "Квадрат со стороной " << side
-        << " имеет площадь: " << area3 << std::endl;
 }
+
